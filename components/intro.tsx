@@ -44,7 +44,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -58,7 +58,7 @@ export default function Intro() {
         . Proficient in <span className="underline">Vue and Python</span>, with
         recent upskilling in{" "}
         <span className="underline">TypeScript, and React</span>.
-      </motion.p>
+      </motion.h1>
 
       <motion.div
         className="px-4 text-lg font-medium flex flex-col items-center justify-center gap-2 sm:flex-row"
