@@ -1,10 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaPython, FaReact, FaVuejs } from "react-icons/fa";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { TbDeviceDesktopAnalytics, TbDevicesDollar } from "react-icons/tb";
 
 export const links = [
   {
@@ -35,28 +34,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Python Developer",
+    location: "Kyiv, Ukraine",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Managed inner technological processes related to document processing. Notable achievement includes creating a feature that connected court decisions with legislative acts and with each other, which means parsing documents for some key words, collecting that data in DB and making requests to get connections.",
+    icon: React.createElement(FaPython),
+    date: "Nov 2007 - Nov 2011",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Python Desktop Application Developer",
+    location: "Kyiv, Ukraine",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developed a desktop interface for working with regulatory databases from scratch using Python and PyQT.",
+    icon: React.createElement(TbDeviceDesktopAnalytics),
+    date: "Nov 2011 - May 2015",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Python Developer",
+    location: "Kyiv, Ukraine",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Created, improved, and maintained features. Collaborated with various teams including UX/UI, QA, payment, marketing and advertising. Successfully implemented key features, like Seller Page, Favourites, and Create CV Form from scratch (front-end and back-end parts).",
+    icon: React.createElement(TbDevicesDollar),
+    date: "May 2015 – Aug 2017",
+  },
+  {
+    title: "Frontend Vue Developer",
+    location: "Kyiv, Ukraine",
+    description:
+      "Responsible for implementing new features and improving existing ones in Vue. Collaborated with UX/UI designers, QA, analysts, and marketing teams. Also involved in redesigning projects in Vue and writing Cypress tests for quality code.",
+    icon: React.createElement(FaVuejs),
+    date: "Oct 2018 – Apr 2019",
+  },
+  {
+    title: "Software Engineer Return Program",
+    location: "Manchester, UK",
+    description:
+      "Coding and technical development training, aimed at preparing for re-entry into the tech industry. The course included labs, projects, and concluded with a group full-stack project.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Nov 2022 - Mar 2023",
   },
 ] as const;
 
