@@ -1,13 +1,13 @@
 "use client";
 
 import React, { createContext, useContext, useState } from "react";
-import { links } from "@/lib/data";
-
-type SectionName = (typeof links)[number]["name"];
+import { SectionName } from "@/lib/types";
 
 type ActiveSectionContextType = {
   activeSection: SectionName;
   setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
+  timeOfLastClick: number;
+  setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
 export const ActiveSectionContext =
@@ -19,8 +19,18 @@ export default function ActiveSectionContextProvider({
   children: React.ReactNode;
 }) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
+  // keep track time to disable the observer temporarily when user clicks on the nav link
+  const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+
   return (
-    <ActiveSectionContext.Provider value={{ activeSection, setActiveSection }}>
+    <ActiveSectionContext.Provider
+      value={{
+        activeSection,
+        setActiveSection,
+        timeOfLastClick,
+        setTimeOfLastClick,
+      }}
+    >
       {children}
     </ActiveSectionContext.Provider>
   );

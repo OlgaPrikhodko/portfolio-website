@@ -1,15 +1,20 @@
 "use client";
+
 import MePhoto from "@/public/me.jpg";
+import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function Intro() {
+  const { ref } = useSectionInView("Home");
+
   return (
     <section
+      ref={ref}
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
       id="home"
     >
