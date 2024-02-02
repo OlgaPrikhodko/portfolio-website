@@ -19,20 +19,20 @@ export default function About() {
 
       <p className="mb-3">
         My career journey includes impactful roles ranging from a{" "}
-        <span className="font-medium">Frontend Vue Developer</span>
-        to a <span className="font-medium">Full Stack Python Developer</span>,
-        where I honed my skills in building intuitive user experiences and
-        robust back-end functionalities, collaborating with cross-functional
-        teams to bring innovative ideas to life. My core stack is{" "}
+        <span className="font-medium">Full Stack Python Developer</span>
+        to a <span className="font-medium">Frontend Vue Developer</span>, where
+        I honed my skills in building intuitive user experiences and robust
+        back-end functionalities, collaborating with cross-functional teams to
+        bring innovative ideas to life. My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Vue, Node.js, and MongoDB
+          React, Next.js, Vue, Nuxt.js and TypeScript
         </span>
-        . I am also familiar with TypeScript and Prisma. I{" "}
-        <span className="underline">believe</span> in life-long learning and
-        always try to find more efficient ways of doing something. I am
-        currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am also familiar with Node.js, MongoDB, Prisma and Vitest (Jest,
+        Testing Library, TDD). I <span className="underline">believe</span> in
+        life-long learning and always try to find more efficient ways of doing
+        something. I am currently looking for a{" "}
+        <span className="font-medium">full-time position</span> as a{" "}
+        <span className="font-medium">software developer</span>.
       </p>
       <p>
         I find balance and inspiration in{" "}
@@ -47,11 +47,3 @@ export default function About() {
     </motion.section>
   );
 }
-
-// My career journey includes impactful roles ranging from a Frontend Vue Developer to a Full Stack Python Developer, where I honed my skills in building intuitive user experiences and robust back-end functionalities, collaborating with cross-functional teams to bring innovative ideas to life."
-
-// I find balance and inspiration in my off-screen life through the nurturing of my indoor garden and the creative exploration of watercolor painting. These hobbies enhance my attention to detail and creative thinking, skills I seamlessly integrate into my front-end development work.
-
-// "Beyond my technical expertise, my time away from coding is dedicated to nurturing my love for botanical watercolor painting and gardening, enriching my creative vision and attention to detail, which I bring into every project I undertake."
-
-// "With a strong foundation in diverse programming languages and technologies, backed by a commitment to continuous learning and personal growth, I am eager to contribute my expertise to a dynamic team and take on new challenges in the ever-evolving world of technology.
