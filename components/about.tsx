@@ -19,9 +19,9 @@ export default function About() {
 
       <p className="mb-3">
         My career journey includes impactful roles ranging from a{" "}
-        <span className="font-medium">Full Stack Python Developer</span>
-        to a <span className="font-medium">Frontend Vue Developer</span>, where
-        I honed my skills in building intuitive user experiences and robust
+        <span className="font-medium">Full Stack Python Developer</span> to a{" "}
+        <span className="font-medium">Frontend Vue Developer</span>, where I
+        honed my skills in building intuitive user experiences and robust
         back-end functionalities, collaborating with cross-functional teams to
         bring innovative ideas to life. My core stack is{" "}
         <span className="font-medium">
